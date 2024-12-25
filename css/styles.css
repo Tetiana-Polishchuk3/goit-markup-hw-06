@@ -740,11 +740,10 @@ button {
 }
 .footer-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: baseline;
   row-gap: 72px;
-  justify-content: center;
 }
 .footer-media {
   font-weight: 500;
@@ -844,6 +843,7 @@ input::placeholder {
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .footer-container {
+    justify-content: flex-start;
     width: 584px;
   }
 }
